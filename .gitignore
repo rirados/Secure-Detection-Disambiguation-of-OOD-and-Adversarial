@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Secrets
+.env
+.env.*
+*.key
+secret.key
+
+# Dataset
+data/
+datasets/
+
+# Model artifacts
+artifacts/*.pth
+artifacts/*.pkl
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.ide/
